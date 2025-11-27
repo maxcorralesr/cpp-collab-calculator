@@ -1,5 +1,6 @@
 #include <iostream>
-#include "operations.h"
+#include "operation.h"
+
 using namespace std;
 int main() {
     int option;
