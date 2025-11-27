@@ -2,16 +2,9 @@
 // Created by maxco on 11/26/2025.
 //
 #include "operation.h"
-#include <iostream>
-using namespace std;
-
-double operation::add(double a, double b) {
-    return a + b;
-}
-
-double operation::subtract(double a, double b) {
-    return a - b;
-}
+double add(double a, double b);
+double subtract(double a, double b);
+double multiply(double a, double b) { return a * b; }
 
 double operation::multiply(double a, double b) {
     return a * b;
