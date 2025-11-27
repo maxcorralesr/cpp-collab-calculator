@@ -16,19 +16,19 @@ int main() {
     cin >> a >> b;
 
     switch(option) {
-        case 1: 
-            cout << "Resultado: " << add(a, b); 
+        case 1:
+            cout << "Resultado: " << add(a, b);
             break;
-        case 2: 
-            cout << "Resultado: " << subtract(a, b); 
+        case 2:
+            cout << "Resultado: " << subtract(a, b);
             break;
-        case 3: 
-            cout << "Resultado: " << multiply(a, b); 
+        case 3:
+            cout << "Resultado: " << multiply(a, b);
             break;
-        case 4: 
-            cout << "Resultado: " << divide(a, b); 
+        case 4:
+            cout << "Resultado: " << divide(a, b);
             break;
-        default: 
+        default:
             cout << "Opción inválida";
     }
 
